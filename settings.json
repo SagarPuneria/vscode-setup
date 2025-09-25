@@ -125,7 +125,8 @@
     "azdoPullRequests.orgUrl": "https://data-cbre.visualstudio.com/",
     "azdoPullRequests.projectName": "EnterpriseDataPlatform",
     "chat.mcp.autostart": "newAndOutdated",
-    "mcp.servers": {
+    "chat.mcp.access": "all",
+    "chat.mcp.servers": {
         "jira": {
             "command": "mcp-atlassian-jira",
             "args": [],
