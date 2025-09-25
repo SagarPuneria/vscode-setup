@@ -63,7 +63,7 @@ docs/
 
 ## Workflow Phases
 
-### Phase 1: PRD Document Creation
+### Phase 1: PRD (Product Requirements Document) Document Creation
 
 When asked to create a new feature or fix:
 
