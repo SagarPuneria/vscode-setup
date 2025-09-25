@@ -16,6 +16,7 @@ Important considerations for the development process include:
 - Maintaining a clear separation between development and production environments.
 - Implementing thorough testing procedures to validate new functionality.
 - Ensuring best practices for code quality and maintainability, considering factors such as language idioms and design patterns.
+- For Python projects, make sure to look for venv, active virtual environments, and proper dependency management.
 
 ## Project Context
 
@@ -216,4 +217,3 @@ When user says:
 - Always confirm directory and file names before creation
 - Summarize key decisions for user validation
 
- Remember: This is a mission-critical enterprise system. Always prioritize data integrity, proper error handling, and comprehensive logging. When in doubt, follow the established patterns in existing working code.
