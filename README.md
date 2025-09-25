@@ -52,6 +52,7 @@ vscode-setup/
 - **Structured Documentation**: Feature and fix documentation workflow
 - **PRD & Planning**: Product Requirements Documents and development planning
 - **GitHub Copilot Integration**: AI-assisted development with custom instructions
+- **Learn More**: [Building with Copilot Agent Mode](https://github.blog/ai-and-ml/github-copilot/from-prompt-to-production-building-a-landing-page-with-copilot-agent-mode/)
 
 #### Build Process
 - **Custom Build Script**: Uses `./build` command instead of standard `go build`
@@ -253,6 +254,12 @@ To fully utilize the global settings, install these VSCode extensions:
 - Check the respective `instructions/` directories for detailed setup guides
 - Refer to the documentation in `docs/` for project-specific information
 - Review the Copilot instructions for AI-assisted development guidelines
+
+## Learning Resources
+
+### Development Tutorials
+- **VSCode Setup Guide**: [Complete VSCode Setup for Development](https://www.youtube.com/watch?v=lTw37SL_vEU) - Comprehensive tutorial covering VSCode configuration and best practices
+- **GitHub Copilot**: [From Prompt to Production with Copilot Agent Mode](https://github.blog/ai-and-ml/github-copilot/from-prompt-to-production-building-a-landing-page-with-copilot-agent-mode/)
 
 ## Contributing
 
