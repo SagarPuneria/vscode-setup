@@ -1,0 +1,86 @@
+// Below task.json created by using copilot
+{
+    "version": "2.0.0",
+    "tasks": [
+		{
+			"label": "ng serve",
+			"type": "shell",
+			"command": "sudo",
+			"args": [
+				"node",
+				"--max_old_space_size=8192",
+				"node_modules/@angular/cli/bin/ng",
+				"serve",
+				"--proxy-config=proxy.conf.js",
+				"--ssl=true",
+				"--ssl-key=app-configs/utils/ssl/local_miq_cbre_com.key",
+				"--ssl-cert=app-configs/utils/ssl/local_miq_cbre_com.cer",
+				"--host=local.miq.cbre.com",
+				"--disable-host-check",
+				"--port=443"
+			],
+			"isBackground": true,
+			"problemMatcher": {
+				"owner": "typescript",
+				"source": "ts",
+				"fileLocation": [
+					"relative",
+					"${workspaceFolder}"
+				],
+				"pattern": "$tsc",
+				"background": {
+					"activeOnStart": true,
+					"beginsPattern": {
+						"regexp": "(.*?)"
+					},
+					"endsPattern": {
+						"regexp": "compiled|Compiled successfully|webpack compiled|Local:.*(https?://.*)"
+					}
+				}
+			}
+		}
+	]
+}
+
+// Below task.json created by using https://www.youtube.com/watch?v=NQZ0wruubZQ
+// https://github.com/learnsmartcoding/angular19-features-examples/tree/main/.vscode
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "ng serve",
+            "type": "shell",
+            "command": "sudo",
+            "args": [
+                "ng",
+                "serve",
+                "--proxy-config=proxy.conf.js",
+                "--ssl=true",
+                "--ssl-key=app-configs/utils/ssl/local_miq_cbre_com.key",
+                "--ssl-cert=app-configs/utils/ssl/local_miq_cbre_com.cer",
+                "--host=local.miq.cbre.com",
+                "--disable-host-check",
+                "--port=443"
+            ],
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "typescript",
+                "pattern": {
+                    "regexp": ".*",
+                    "file": 1,
+                    "location": 2,
+                    "message": 3
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": ".*",
+                    "endsPattern": "Compiled successfully"
+                }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}

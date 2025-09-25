@@ -1,0 +1,138 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.fontSize": 20,
+    "json.format.enable": false,
+    "workbench.editor.enablePreview": false,
+    "window.title": "${folderPath}${separator}${rootName}",
+    "editor.minimap.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "files.autoSave": "afterDelay",
+    "window.newWindowDimensions": "maximized",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "go.lintTool": "golangci-lint",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "git.autofetch": true,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "go.testTimeout": "400s",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        },
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.autoIndent": "full",
+        "editor.trimAutoWhitespace": true,
+    },
+    "python.defaultInterpreterPath": "python3",
+    "python.analysis.typeCheckingMode": "strict",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedImport": "information",
+        "reportUnusedVariable": "information",
+        "reportDuplicateImport": "warning"
+    },
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.languageServer": "Pylance",
+    "pylint.enabled": true,
+    "pylint.args": [
+        "--disable=C0111,C0103,R0903,W0613,W0622",
+        "--max-line-length=88"
+    ],
+    "flake8.args": [
+        "--max-line-length=88",
+        "--ignore=E203,W503"
+    ],
+    "mypy-type-checker.args": [
+        "--ignore-missing-imports",
+        "--follow-imports=silent",
+        "--show-column-numbers"
+    ],
+    "git.suggestSmartCommit": false,
+    "github.copilot.advanced": {
+        "debug.overrideEngine": "copilot-chat",
+        "debug.useElectronFetcher": true,
+        "debug.useNodeFetcher": false,
+        "debug.useNodeFetchFetcher": true
+    },
+    "snyk.advanced.cliPath": "/Users/sagar.puneria/Library/Application Support/snyk-ls/snyk-macos",
+    "snyk.folderConfigs": [
+        {
+            "folderPath": "/Users/Sagar.Puneria/cbre/cep/src/marketiq-backend",
+            "baseBranch": "master",
+            "localBranches": [
+                "release/9.5.0",
+                "master"
+            ]
+        }
+    ],
+    "veracode-scan.SCA Vulnerability.sevFilters": [],
+    "veracode-scan.SCA Vulnerability.usageFilters": [],
+    "veracode-scan.SAST Flaw.sevFilters": [],
+    "snyk.trustedFolders": [
+        "/Users/Sagar.Puneria/cbre/cep/src/marketiq-backend"
+    ],
+    "snyk.yesWelcomeNotification": false,
+    "veracode-scan.SCA Features.policy": false,
+    "cycode.apiUrl": "https://api.cycode.com",
+    "cycode.appUrl": "https://app.cycode.com",
+    "cycode.cliPath": "/opt/homebrew/bin/cycode",
+    "makefile.configureOnOpen": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "database-client.autoSync": true,
+    "dbcode.connections": [
+    ],
+    "dbcode.history.enabled": true,
+    "dbcode.resultLocation": "panel",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "sql": true
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.inlineSuggest.edits.showCollapsed": true,
+    "gitlens.views.fileHistory.mode": "contributors",
+    "yaml.schemas": {
+        "file:///Users/Sagar.Puneria/.vscode/extensions/atlassian.atlascode-3.8.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.enabled": true,
+    "atlascode.bitbucket.enabled": true,
+    "dbcode.ai.modelId": "gpt-4.1",
+    "atlascode.jira.lastCreateSiteAndProject": {
+        "siteId": "f8960984-762a-4024-a16a-c514865ba121",
+        "projectKey": "BEAT"
+    },
+    "atlascode.bitbucket.explorer.enabled": false,
+    "atlascode.bitbucket.pipelines.explorerEnabled": false,
+    "atlascode.bitbucket.preferredRemotes": [],
+    "atlascode.bitbucket.contextMenus.enabled": false,
+    "atlascode.bitbucket.statusbar.enabled": false,
+    "docker.extension.enableComposeLanguageServer": false,
+    "git.path": "/usr/bin/git",
+    "chat.mcp.autostart": "newAndOutdated",
+    "workbench.settings.applyToAllProfiles": [
+        "github.copilot.chat.codeGeneration.useInstructionFiles"
+    ],
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+            "text": "Be extremely detailed with the file changes and the reason for the change. Add lots of emojis"
+        }
+    ]
+}
