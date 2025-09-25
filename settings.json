@@ -72,12 +72,8 @@
     "snyk.advanced.cliPath": "/Users/sagar.puneria/Library/Application Support/snyk-ls/snyk-macos",
     "snyk.folderConfigs": [
         {
-            "folderPath": "/Users/Sagar.Puneria/cbre/cep/src/marketiq-backend",
-            "baseBranch": "master",
-            "localBranches": [
-                "release/9.5.0",
-                "master"
-            ]
+            "folderPath": "/Users/Sagar.Puneria/Downloads/vscode-setup",
+            "baseBranch": ""
         }
     ],
     "veracode-scan.SCA Vulnerability.sevFilters": [],
@@ -110,10 +106,10 @@
     "editor.inlineSuggest.edits.showCollapsed": true,
     "gitlens.views.fileHistory.mode": "contributors",
     "yaml.schemas": {
-        "file:///Users/Sagar.Puneria/.vscode/extensions/atlassian.atlascode-3.8.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+        "file:///Users/Sagar.Puneria/.vscode/extensions/atlassian.atlascode-3.8.18/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "atlascode.jira.enabled": true,
-    "atlascode.bitbucket.enabled": true,
+    "atlascode.bitbucket.enabled": false,
     "dbcode.ai.modelId": "gpt-4.1",
     "atlascode.jira.lastCreateSiteAndProject": {
         "siteId": "f8960984-762a-4024-a16a-c514865ba121",
@@ -126,7 +122,20 @@
     "atlascode.bitbucket.statusbar.enabled": false,
     "docker.extension.enableComposeLanguageServer": false,
     "git.path": "/usr/bin/git",
+    "azdoPullRequests.orgUrl": "https://data-cbre.visualstudio.com/",
+    "azdoPullRequests.projectName": "EnterpriseDataPlatform",
     "chat.mcp.autostart": "newAndOutdated",
+    "mcp.servers": {
+        "jira": {
+            "command": "mcp-atlassian-jira",
+            "args": [],
+            "env": {
+                "ATLASSIAN_SITE_NAME": "cbre-jira",
+                "ATLASSIAN_USER_EMAIL": "sagar.puneria@cbre.com",
+                "ATLASSIAN_API_TOKEN": ""
+            }
+        }
+    },
     "workbench.settings.applyToAllProfiles": [
         "github.copilot.chat.codeGeneration.useInstructionFiles"
     ],
@@ -134,5 +143,7 @@
         {
             "text": "Be extremely detailed with the file changes and the reason for the change. Add lots of emojis"
         }
-    ]
+    ],
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1"
 }
