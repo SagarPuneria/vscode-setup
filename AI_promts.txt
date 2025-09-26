@@ -1,0 +1,84 @@
+Useful AI prompts:
+
+0. Analyze this text and make suggestions on how to improve it:
+
+1. Correct the grammar OR Help me with grammatically correct version OR Help me to phrase below sentence grammatically correct: 
+
+2. Correct grammar for casual and team-chat-friendly version of below sentence:
+
+3. What else can I improve in my writing? OR 
+	What else can Sagar can improve the clarity, grammar, and tone in his writing? OR 
+	Please refine Sagar's message that improves clarity, grammar, and flow while keeping the technical details intact:
+
+4. Replace the entire content with properly formatted markdown OR Convert this file content in proper mark down format.
+
+5. Could you help me to review the code implementation for GetAppUsage across the controller, domain, and data layers.
+
+6. Can you provide a diagram of this overview? Before generating new diagram and adding more details to the diagram, understand following content along with architecture diagram shown in attach image.
+
+7. Please analyze these interview questions and provide comprehensive answers with examples for each Angular, JavaScript, and TypeScript question.
+
+8. Understand this project structure and rewrite README.md file along with angular CLI commands used to generate those structure.
+
+9. Understand this project structure and rewrite README.md file along with examples and commands used to generate those structure.
+
+10. Analyze content in attach file and prepare comprehensive summary > Can you simplify/shorten this summary?
+
+11. Could you help me to refine below JIRA ticket description along with a suitable title:
+
+12. Please suggest sub-task for the JIRA ticket we just refined:
+
+13. I'd like to expand it for a JIRA status update or a message to my team, with grammatically correct and polished version of below sentence: 
+
+14. Correct grammar version of below draft mail: 
+
+
+Copilot prompts:
+
+0 . Initial documentation setup and structure creation
+
+1. MIQ database design documentation generation.
+
+2. Comprehensive project structure documentation creation
+
+3. Adding project-specific prompts for MarketIQ Backend
+
+4. Implement /admin/features API in 3-Layer Architecture used in Vantage Analytics.
+
+5. Create a comprehensive README file to document the admin API implementation:
+
+6. Understand the MIQ database design and generate comprehensive documentation for it.
+
+7. Generate comprehensive document describes the actual current project structure.
+
+8. Generate comprehensive documentation and diagrams for the Automation Framework workflow. 
+
+9. Hey go and check this JIRA CM-20456, generate a PRD for this Jira story.
+
+
+Specific SQL prompt examples:
+
+Try making your prompt more specific. For example:
+✅ "Write a SQL query to get the top 5 customers by revenue from a sales table."
+✅ "Generate a PostgreSQL EXPLAIN plan for a SELECT query with JOINs."
+
+🔍 General Data Retrieval
+"Write a SQL query to select all columns from the 'employees' table where the department is 'Sales'."
+"Get the top 10 products by total sales from the 'orders' and 'products' tables using a JOIN."
+
+📊 Aggregation and Grouping
+"Create a SQL query to calculate the average salary by department from the 'employee' table."
+"Show the total revenue per month from the 'transactions' table, grouped by month."
+
+🧠 Using EXPLAIN Plans (PostgreSQL-specific)
+"Generate a PostgreSQL EXPLAIN ANALYZE plan for a SELECT query joining 'orders' and 'customers'."
+"Explain the performance of a query that filters 'orders' by date and joins with 'products'."
+
+🧮 Filtering and Sorting
+"Write a SQL query to find customers who placed more than 5 orders in the last 30 days."
+"Sort the 'products' table by price in descending order and limit to top 5 results."
+
+🔐 Advanced SQL Features
+"Use a CTE to find the second highest salary in the 'employees' table."
+"Create a window function to rank employees by performance score within each department."
+
