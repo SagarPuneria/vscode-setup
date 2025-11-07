@@ -4,7 +4,7 @@ Useful AI prompts:
 
 1. Correct the grammar OR Help me with grammatically correct version OR Help me to phrase below sentence grammatically correct: 
 
-2. Correct grammar for casual and team-chat-friendly version of below sentence:
+2. Correct grammar for casual and team-chat-friendly version of below sentence: 
 
 3. What else can I improve in my writing? OR 
 	What else can Sagar can improve the clarity, grammar, and tone in his writing? OR 
@@ -49,11 +49,14 @@ Copilot prompts:
 
 6. Understand the MIQ database design and generate comprehensive documentation for it.
 
-7. Generate comprehensive document describes the actual current project structure.
+7. Generate comprehensive document describes the actual current project structure. 
+   OR Analyze the current project structure and update the README.md file with comprehensive documentation.
 
 8. Generate comprehensive documentation and diagrams for the Automation Framework workflow. 
 
 9. Hey go and check this JIRA CM-20456, generate a PRD for this Jira story.
+
+10. Analyze the selected code changes to help you create an appropriate PR title and description.
 
 
 Specific SQL prompt examples:
@@ -81,4 +84,3 @@ Try making your prompt more specific. For example:
 🔐 Advanced SQL Features
 "Use a CTE to find the second highest salary in the 'employees' table."
 "Create a window function to rank employees by performance score within each department."
-
